@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "1035392917774",
+    "project_id": "interior-design-app-f5061",
+    "storage_bucket": "interior-design-app-f5061.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1035392917774:android:4a064531023697da5cf75f",
+        "android_client_info": {
+          "package_name": "com.zoh.interior_design"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1035392917774-394s6fhm2p7ovg8bkhnumkk8mh6uc3th.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zoh.interior_design",
+            "certificate_hash": "99d77da2d2a4f5d75e83b26a4969285b24496d16"
+          }
+        },
+        {
+          "client_id": "1035392917774-o9vvcbeur9egsvbetcuteslfdmdpu29v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFb7zojxgOWuQ7D1DsL9yX-Ha5ISt1ce8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1035392917774-o9vvcbeur9egsvbetcuteslfdmdpu29v.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1035392917774-qab9c8mf6jnfh66cehql5rahgvm6lmrq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.zoh.interiorDesign"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
