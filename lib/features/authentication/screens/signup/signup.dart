@@ -1,9 +1,5 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/painting.dart';
-import 'package:flutter/widgets.dart';
 import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
 import 'package:interior_design/features/authentication/screens/signup/widgets/signup_form.dart';
 import 'package:interior_design/utils/constants/sizes.dart';
 import 'package:interior_design/utils/constants/texts.dart';

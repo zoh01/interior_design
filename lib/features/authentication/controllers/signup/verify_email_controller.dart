@@ -15,7 +15,7 @@ import '../../../../utils/popups/loaders.dart';
 class VerifyEmailController extends GetxController {
   static VerifyEmailController get instance => Get.find();
 
-  /// Send Email whenever verify screen appears & set timer for outa redirect.
+  /// Send Email whenever verify screen appears & set timer for out redirect.
   @override
   void onInit() {
     sendEmailVerification();

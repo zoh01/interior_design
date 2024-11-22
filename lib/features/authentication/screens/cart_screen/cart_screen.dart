@@ -17,6 +17,7 @@ class ZCartScreen extends StatelessWidget {
   List<CartItem> cartList = [
     CartItem(ZImages.drawer, 'Modern Black Drawer', 'Drawer', 999, 1),
     CartItem(ZImages.sofa, 'L-Shaped White Sofa', 'Sofa', 2399, 1),
+    CartItem(ZImages.coffeeTable, 'Round Coffee Table', 'Table', 1259, 1),
     CartItem(ZImages.coffeeTable, 'Round Coffee Table', 'Table', 1259, 1)
   ];
 

@@ -1,9 +1,6 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:get/get.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
-import 'package:iconsax/iconsax.dart';
 import 'package:interior_design/features/authentication/screens/cart_screen/cart_screen.dart';
 import 'package:interior_design/features/authentication/screens/home/home.dart';
 import 'package:interior_design/features/authentication/screens/settings_screen/settings_screen.dart';
@@ -32,15 +29,14 @@ class NavigationMenu extends StatelessWidget {
             gap: ZSizes.sm,
             padding: const EdgeInsets.all(12.0),
             tabs: const [
-              GButton(icon: Iconsax.home, text: 'Home'),
-              GButton(icon: Iconsax.shop, text: 'Store'),
-              GButton(icon: Iconsax.shopping_cart, text: 'Cart',),
-              GButton(icon: Iconsax.user, text: 'Profile',)
+              GButton(icon: Icons.home_outlined, text: 'Home'),
+              GButton(icon: Icons.store, text: 'Store'),
+              GButton(icon: Icons.shopping_cart, text: 'Cart',),
+              GButton(icon: Icons.perm_identity, text: 'Profile',)
             ],
           ),
         ),
       ),
-
       body: Obx(() => controller.screens[controller.selectedIndex.value]),
     );
   }

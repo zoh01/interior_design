@@ -8,7 +8,6 @@ import '../../../../utils/constants/sizes.dart';
 import '../home/widgets/promo_slider.dart';
 import '../product_screen/widgets/add_to_cart.dart';
 import '../product_screen/widgets/product_app_bar.dart';
-import '../product_screen/widgets/product_info.dart';
 
 class SofaScreen extends StatefulWidget {
   const SofaScreen({super.key});

@@ -1,16 +1,11 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
-import 'package:get/get_navigation/get_navigation.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:interior_design/features/authentication/screens/forget_password/forget_password.dart';
 import 'package:interior_design/features/authentication/screens/signup/signup.dart';
-import 'package:interior_design/utils/constants/colors.dart';
 import 'package:interior_design/utils/helpers/helper_functions.dart';
 import 'package:interior_design/utils/validators/validation.dart';
 
-import '../../../../../navigation_menu.dart';
 import '../../../../../utils/constants/sizes.dart';
 import '../../../../../utils/constants/texts.dart';
 import '../../../controllers/login/login_controller.dart';
@@ -46,15 +41,11 @@ class _ZloginFormState extends State<ZloginForm> {
               decoration: InputDecoration(
                   prefixIcon: const Icon(Iconsax.direct_right),
                   labelText: ZTextString.email,
-                  labelStyle:
-                      TextStyle(color: dark ? Colors.white : Colors.black),
+                  labelStyle: TextStyle(color: dark ? Colors.white : Colors.black),
                   focusedBorder: OutlineInputBorder(
-                      borderSide:
-                          BorderSide(color: dark ? Colors.white : Colors.black),
-                      borderRadius:
-                          const BorderRadius.all(Radius.circular(15.0))),
-                  border: const OutlineInputBorder(
-                      borderSide: BorderSide(color: Colors.black),
+                      borderSide: BorderSide(color: dark ? Colors.white : Colors.black),
+                      borderRadius: const BorderRadius.all(Radius.circular(15.0))),
+                  border: const OutlineInputBorder(borderSide: BorderSide(color: Colors.black),
                       borderRadius: BorderRadius.all(Radius.circular(15.0)))),
             ),
             const SizedBox(
@@ -113,7 +104,7 @@ class _ZloginFormState extends State<ZloginForm> {
                     onPressed: () => Get.to(() => const ForgetPassword()),
                     child: Text(
                       ZTextString.forgetPassword,
-                      style: Theme.of(context).textTheme.bodyText2!.apply(
+                      style: Theme.of(context).textTheme.bodyMedium!.apply(
                           color: dark ? Colors.white : Colors.blueAccent),
                     )),
               ],

@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:interior_design/features/authentication/controllers/onboarding/onboarding_controller.dart';

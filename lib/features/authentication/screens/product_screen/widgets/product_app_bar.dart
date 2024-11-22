@@ -21,7 +21,6 @@ class ProductAppBar extends StatelessWidget {
               Navigator.pop(context);
             },
             style: IconButton.styleFrom(
-                backgroundColor: Colors.white.withOpacity(0.3),
                 padding: const EdgeInsets.all(ZSizes.md)),
             icon: const Icon(Iconsax.arrow_left_2, color: Colors.black,)),
         Row(
@@ -29,18 +28,14 @@ class ProductAppBar extends StatelessWidget {
             IconButton(
                 onPressed: () {},
                 style: IconButton.styleFrom(
-                    backgroundColor: Colors.white.withOpacity(0.3),
                     padding: const EdgeInsets.all(ZSizes.md)),
-                icon: const Icon(Iconsax.share5, color: Colors.black)),
+                icon: const Icon(Icons.share, color: Colors.black)),
             const SizedBox(
               width: ZSizes.sm,
             ),
             IconButton(
                 onPressed: () {},
-                style: IconButton.styleFrom(
-                    backgroundColor: Colors.white.withOpacity(0.3),
-                    padding: const EdgeInsets.all(ZSizes.md)),
-                icon: const Icon(Iconsax.favorite_chart,color: Colors.black)),
+                icon: const Icon(Icons.favorite,color: Colors.red)),
           ],
         )
       ],

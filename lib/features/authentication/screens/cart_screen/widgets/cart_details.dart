@@ -87,12 +87,15 @@ class _ZCartDetailsState extends State<ZCartDetails> {
             ],
           ),
         ),
+
         Positioned(
           top: 5,
           right: 5,
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.end,
             children: [
+
+              /// Delete Button
               IconButton(
                   onPressed: () {},
                   icon: const Icon(
@@ -102,6 +105,8 @@ class _ZCartDetailsState extends State<ZCartDetails> {
               const SizedBox(
                 height: ZSizes.sm,
               ),
+
+              /// Add & Remove product
               Container(
                 height: 40,
                 decoration: BoxDecoration(

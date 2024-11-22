@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:interior_design/features/authentication/screens/profile_screen/profile_screen.dart';
 import 'package:interior_design/features/authentication/screens/settings_screen/widgets/menu_tile.dart';
@@ -8,7 +7,6 @@ import 'package:interior_design/features/authentication/screens/settings_screen/
 import 'package:interior_design/features/personalization/screens/address/address.dart';
 import 'package:interior_design/utils/helpers/helper_functions.dart';
 
-import '../../../../common/widgets/appbar/appbar.dart';
 import '../../../../common/widgets/custom_shapes/containers/primary_header_container.dart';
 import '../../../../common/widgets/texts/section_heading.dart';
 import '../../../../utils/constants/colors.dart';

@@ -22,7 +22,7 @@ class ZImages {
   static String emailSent = "assets/animations/email_sent.png";
   static String user = "assets/logos/user.png";
   static String processing = "assets/animations/processing.gif";
-  static String paymentSuccessful = 'assets/images/payment_methods/payment_successful.png';
+  static String paymentSuccessful = 'assets/images/payment_methods/card-payment.png';
 
   // Categories Icons
   static String bedroom = "assets/icons/icons8-bedroom-64.png";

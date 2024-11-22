@@ -157,6 +157,7 @@ class HomeScreen extends StatelessWidget {
       ),
     );
   }
+
   Widget _buildProductItem(BuildContext context, int index) {
     Item item = itemList[index];
     return ZProductCardVertical(

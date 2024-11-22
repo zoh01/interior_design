@@ -4,6 +4,7 @@ import 'package:get/get.dart';
 import 'package:get/get_state_manager/get_state_manager.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:interior_design/features/authentication/screens/home/widgets/shimmer_effect.dart';
+import 'package:interior_design/features/authentication/screens/wishlist/wishlish.dart';
 import 'package:interior_design/features/personalization/controllers/user_controller.dart';
 import 'package:interior_design/utils/constants/image_strings.dart';
 
@@ -60,8 +61,8 @@ class ZHomeAppBar extends StatelessWidget {
           ),
           child: Stack(alignment: Alignment.center, children: [
             IconButton(
-              onPressed: () {},
-              icon: Icon(Iconsax.shop,
+              onPressed: () => Get.to(() => FavoriteScreen()),
+              icon: Icon(Icons.favorite_border,
                   size: 26,
                   color: dark
                       ? Colors.white.withOpacity(0.7)
