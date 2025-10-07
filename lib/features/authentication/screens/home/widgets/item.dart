@@ -1,5 +1,3 @@
-import 'package:interior_design/features/authentication/screens/home/widgets/product.dart';
-
 class Item {
   final String title;
   final String image;

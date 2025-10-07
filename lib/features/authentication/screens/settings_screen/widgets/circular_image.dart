@@ -1,10 +1,10 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:interior_design/features/authentication/screens/home/widgets/shimmer_effect.dart';
 import 'package:interior_design/utils/helpers/helper_functions.dart';
 
 import '../../../../../utils/constants/colors.dart';
 import '../../../../../utils/constants/sizes.dart';
+import '../../home/widgets/shimmer_effect.dart';
 
 class ZCircularImage extends StatelessWidget {
   const ZCircularImage({

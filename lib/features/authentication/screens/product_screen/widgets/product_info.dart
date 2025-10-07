@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:get/get_navigation/get_navigation.dart';
 import 'package:iconsax/iconsax.dart';
+import 'package:interior_design/features/authentication/screens/login/login_screen.dart';
 import 'package:interior_design/features/authentication/screens/product_review/product_review.dart';
 import 'package:interior_design/features/authentication/screens/product_screen/widgets/product_color.dart';
 

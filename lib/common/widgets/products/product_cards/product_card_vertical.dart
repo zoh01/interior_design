@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:interior_design/common/images/z_rounded_image.dart';
-import 'package:interior_design/common/styles/shadows.dart';
 import 'package:interior_design/utils/constants/colors.dart';
 import 'package:interior_design/utils/constants/sizes.dart';
 import 'package:interior_design/utils/helpers/helper_functions.dart';
@@ -17,7 +16,7 @@ class ZProductCardVertical extends StatelessWidget {
       required this.image,
       required this.price,
       required this.rate,
-      this.onTap});
+      this.onTap,});
 
   final String title;
   final String image;

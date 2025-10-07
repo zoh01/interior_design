@@ -1,9 +1,6 @@
-
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:interior_design/data/repositories/user/user_repository.dart';
 import 'package:interior_design/features/personalization/controllers/user_controller.dart';
 
 import '../../../../data/repositories/authentication_repositories.dart';

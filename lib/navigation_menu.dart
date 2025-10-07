@@ -32,7 +32,7 @@ class NavigationMenu extends StatelessWidget {
               GButton(icon: Icons.home_outlined, text: 'Home'),
               GButton(icon: Icons.store, text: 'Store'),
               GButton(icon: Icons.shopping_cart, text: 'Cart',),
-              GButton(icon: Icons.perm_identity, text: 'Profile',)
+              GButton(icon: Icons.perm_identity, text: 'Profile',),
             ],
           ),
         ),
