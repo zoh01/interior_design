@@ -32,7 +32,7 @@ class ProductReviewScreen extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                'Ratings and Review are verified and are from people who use the same type of device that you use.',
+                'Ratings and Reviews are verified and are from people who use the same type of device that you use.',
                 style: TextStyle(color: dark ? Colors.white : Colors.black),
               ),
               const SizedBox(height: ZSizes.spaceBtwItems,),
