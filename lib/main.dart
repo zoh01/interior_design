@@ -1,6 +1,5 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:interior_design/data/repositories/authentication_repositories.dart';
@@ -10,10 +9,10 @@ import 'firebase_options.dart';
 
 Future<void> main() async {
   // Ensure Flutter binding is initialized
-  WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
+  // WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
 
   // Keep splash screen visible until initialization is complete
-  FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
+  // FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
 
   try {
     // Initialize local storage
@@ -28,12 +27,12 @@ Future<void> main() async {
     Get.put(AuthenticationRepository());
 
     // Remove splash screen after initialization
-    FlutterNativeSplash.remove();
+    // FlutterNativeSplash.remove();
 
     // Run the main app
     runApp(const App());
   } catch (e, stackTrace) {
-    FlutterNativeSplash.remove(); // Remove splash if initialization fails
+    // FlutterNativeSplash.remove(); // Remove splash if initialization fails
     debugPrint('⚠️ Initialization error: $e');
     debugPrintStack(stackTrace: stackTrace);
   }

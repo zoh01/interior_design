@@ -14,6 +14,9 @@ class ZTextString {
   static const String homeAppBarTitle = "Good day for shopping";
   static const String homeAppBarSubTitle = "Adebayo Wariz";
 
+  // Splash Title
+  static const String splashTitle = "Curating Your Perfect Space...";
+
   // Authentication Form Text
   static const String firstName = "First Name";
   static const String lastName = "Last Name";

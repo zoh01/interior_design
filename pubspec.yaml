@@ -32,7 +32,6 @@ dependencies:
   carousel_slider: ^5.0.0
   readmore: ^2.2.0
   flutter_rating_bar: ^4.0.1
-  flutter_native_splash: ^2.4.0
   smooth_page_indicator: ^1.1.0
 
   # Product Specific
@@ -75,6 +74,7 @@ flutter:
     - assets/icons/
     - assets/images/
     - assets/logos/
+    - assets/images/splash/
     - assets/animations/
     - assets/icons/
     - assets/images/banners/
