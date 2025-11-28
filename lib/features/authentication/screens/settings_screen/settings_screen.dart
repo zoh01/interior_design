@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
-import 'package:interior_design/features/authentication/screens/profile_screen/profile_screen.dart';
+import 'package:interior_design/utils/popups/profile_screen.dart';
 import 'package:interior_design/features/authentication/screens/settings_screen/widgets/menu_tile.dart';
 import 'package:interior_design/features/authentication/screens/settings_screen/widgets/user_profile.dart';
 import 'package:interior_design/features/personalization/screens/address/address.dart';

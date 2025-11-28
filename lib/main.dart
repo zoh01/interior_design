@@ -9,20 +9,32 @@ import 'app.dart';
 import 'firebase_options.dart';
 
 Future<void> main() async {
-  /// Widgets Binding
-  final WidgetsBinding widgetsBinding =
-      WidgetsFlutterBinding.ensureInitialized();
+  // Ensure Flutter binding is initialized
+  WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
 
-  /// -- GetX Local Storage
-  await GetStorage.init();
-
-  /// -- Await Splash until other items Load
+  // Keep splash screen visible until initialization is complete
   FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
 
-  /// Initialize Firebase & Authentication Repository
-  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform)
-      .then((FirebaseApp value) => Get.put(AuthenticationRepository()));
+  try {
+    // Initialize local storage
+    await GetStorage.init();
 
-  // Todo: Initialize Authentication
-  runApp(const App());
+    // Initialize Firebase
+    await Firebase.initializeApp(
+      options: DefaultFirebaseOptions.currentPlatform,
+    );
+
+    // Initialize Authentication repository
+    Get.put(AuthenticationRepository());
+
+    // Remove splash screen after initialization
+    FlutterNativeSplash.remove();
+
+    // Run the main app
+    runApp(const App());
+  } catch (e, stackTrace) {
+    FlutterNativeSplash.remove(); // Remove splash if initialization fails
+    debugPrint('⚠️ Initialization error: $e');
+    debugPrintStack(stackTrace: stackTrace);
+  }
 }

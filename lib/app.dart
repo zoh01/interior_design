@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/get_navigation.dart';
+import 'package:interior_design/features/authentication/screens/onboarding/onboarding.dart';
 import 'package:interior_design/utils/constants/colors.dart';
 import 'package:interior_design/utils/theme/theme.dart';
 
@@ -16,16 +17,16 @@ class App extends StatelessWidget {
       theme: ZAppTheme.lightTheme,
       darkTheme: ZAppTheme.darkTheme,
       initialBinding: GeneralBindings(),
-
+      home: const OnBoardingScreen(),
       /// Show Loader or Circular progress indicator meanwhile Authentication Repository is deciding to show relevant Screen
-      home: const Scaffold(
-        backgroundColor: ZColors.primary,
-        body: Center(
-          child: CircularProgressIndicator(
-            color: Colors.white,
-          ),
-        ),
-      ),
+      // home: const Scaffold(
+      //   backgroundColor: ZColors.primary,
+      //   body: Center(
+      //     child: CircularProgressIndicator(
+      //       color: Colors.white,
+      //     ),
+      //   ),
+      // ),
     );
   }
 }

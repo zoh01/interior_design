@@ -20,11 +20,20 @@ class LoginController extends GetxController {
   final userController = Get.put(UserController());
 
 
+  // @override
+  // void onInit() {
+  //   email.text = localStorage.read('REMEMBER_ME_EMAIL');
+  //   password.text = localStorage.read('REMEMBER_ME_PASSWORD');
+  // }
+
   @override
   void onInit() {
-    email.text = localStorage.read('REMEMBER_ME_EMAIL');
-    password.text = localStorage.read('REMEMBER_ME_PASSWORD');
+    super.onInit(); // always call super
+    // Use empty string if nothing is saved yet
+    email.text = localStorage.read<String>('REMEMBER_ME_EMAIL') ?? '';
+    password.text = localStorage.read<String>('REMEMBER_ME_PASSWORD') ?? '';
   }
+
 
   /// Email and Password SignIn
   Future<void> emailAndPasswordSignIn() async {

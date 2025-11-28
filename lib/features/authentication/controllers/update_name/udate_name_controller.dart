@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
 import 'package:interior_design/data/repositories/user/user_repository.dart';
-import 'package:interior_design/features/authentication/screens/profile_screen/profile_screen.dart';
+import 'package:interior_design/utils/popups/profile_screen.dart';
 import 'package:interior_design/features/personalization/controllers/user_controller.dart';
 import 'package:interior_design/utils/constants/image_strings.dart';
 import 'package:interior_design/utils/popups/full_screen_loader.dart';

@@ -34,7 +34,7 @@ class AuthenticationRepository extends GetxController {
     // Remove the native splash screen
     FlutterNativeSplash.remove();
     // Redirect to the appropriate screen
-    screenRedirect();
+    // screenRedirect();
   }
 
   /// Function to determine the relevant screen and redirect accordingly.

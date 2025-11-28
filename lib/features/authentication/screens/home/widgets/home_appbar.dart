@@ -68,17 +68,6 @@ class ZHomeAppBar extends StatelessWidget {
                       ? Colors.white.withOpacity(0.7)
                       : Colors.black.withOpacity(0.7)),
             ),
-            // Positioned(
-            //   right: 19,
-            //   bottom: 6,
-            //   child: Container(
-            //     width: 7,
-            //     height: 7,
-            //     decoration: const BoxDecoration(
-            //         borderRadius: BorderRadius.all(Radius.circular(10)),
-            //         color: Colors.red),
-            //   ),
-            // ),
           ]),
         ),
       ],

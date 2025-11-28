@@ -8,6 +8,9 @@ class ZImages {
   static const String appLogo1 = "assets/logos/splash2.png";
   static const String excited = "assets/logos/excited.png";
 
+  // Splash Image
+  static const String splashImage = "assets/images/splash/interior_splash.png";
+
   // OnBoarding Images
   static const String onBoardingImage1 = "assets/images/on_boarding_images/select.gif";
   static const String onBoardingImage2 = "assets/images/on_boarding_images/make_payment.gif";
