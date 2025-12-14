@@ -7,7 +7,9 @@ The Interior Design App is a cross-platform mobile and web application designed 
 
 ## 🎯 Overview
 This application serves as a comprehensive interior design companion that combines the power of modern mobile technology with the creativity of interior design. The app leverages cloud-based services to provide real-time content delivery, ensuring users always have access to the latest design trends and ideas.
+
 **Problem Statements:** Finding interior design inspiration is often fragmented across multiple platforms, and visualizing how different design elements work together can be challenging without proper tools.
+
 **Solution:** This app consolidates design inspiration into a single, elegant interface where users can browse curated collections, explore different room styles, and visualize design concepts with an intuitive, user-friendly experience.
 
 ---
@@ -56,11 +58,30 @@ The app implements a feature-first architecture combined with separation of conc
     └── main.dart           # Application entry point
 This separation ensures maintainability and easier scalability as the app grows.
 ### Key Design Decisions
-
 1. **Modular Architecture:** Each feature is self-contained with its own widgets, logic, and data handling, making the codebase easier to maintain and scale.
 2. **State Management:** Utilizes Flutter's built-in state management solutions for optimal performance and simplicity.
 3. **Responsive Design:** Implements adaptive layouts that automatically adjust to different screen sizes and orientations.
 4. **Firebase Integration:** Leverages Firebase for backend services including authentication, cloud storage, and real-time database capabilities.
 5. **Asset Management:** Organized asset structure for efficient image loading and caching.
 
+### Development Workflow
+- **Version Control:** Git with feature branching
+- **Code Quality:** Follows Dart/Flutter style guidelines and linting rules
+- **Testing Strategy:** Unit tests for business logic, widget tests for UI components
+- **Continuous Integration:** Automated builds and tests
+
+---
+
+## 🔧 Tools and Libraries Used
+### Core Technologies
+- **Flutter SDK** (3.X+) - UI framework for building natively compiled applications
+- **Dart** (3.X+) - Programming language optimized for building mobile, desktop, and web apps
+
+### Firebase Services
+1. Firebase Services
+   ```bash
+   firebase_core: ^latest          # Firebase core functionality
+   firebase_auth: ^latest          # User authentication
+   cloud_firestore: ^latest        # NoSQL cloud database
+   firebase_storage: ^latest       # Cloud storage for images and files
 
