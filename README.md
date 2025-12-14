@@ -14,18 +14,18 @@ This application serves as a comprehensive interior design companion that combin
 
 ## ✨ Features
 ### Core Functionality
-**- 🎨 Design Gallery:** Browse through a carefully curated collection of interior design inspirations organized by room types, styles, and themes
-**- 🏡 Room Visualization:** Explore different room layouts and design concepts with high-quality imagery
-**- 🔍 Smart Search:** Quickly find designs that match your preferences and style
-**- ❤️ Favorites Collection:** Save and organize your favorite designs for easy reference
-**- 📱 Responsive Design:** Seamless experience across all screen sizes and devices
-**- 🌐 Cross-Platform Support:** Available on iOS, Android, Web, Windows, macOS, and Linux
+- **🎨 Design Gallery:** Browse through a carefully curated collection of interior design inspirations organized by room types, styles, and themes
+- **🏡 Room Visualization:** Explore different room layouts and design concepts with high-quality imagery
+- **🔍 Smart Search:** Quickly find designs that match your preferences and style
+- **❤️ Favorites Collection:** Save and organize your favorite designs for easy reference
+- **📱 Responsive Design:** Seamless experience across all screen sizes and devices
+- **🌐 Cross-Platform Support:** Available on iOS, Android, Web, Windows, macOS, and Linux
 ### User Experience
-**- 🎯 Intuitive Navigation:** Clean, modern UI that makes browsing effortless
-**- ⚡ Fast Performance:** Optimized loading and smooth animations
-**- 💾 Offline Capability:** Access your saved designs even without internet
-**- 🔐 Secure Authentication:** Firebase-powered user authentication
-**- ☁️ Cloud Sync:** Your data syncs seamlessly across all your devices
+- **🎯 Intuitive Navigation:** Clean, modern UI that makes browsing effortless
+- **⚡ Fast Performance:** Optimized loading and smooth animations
+- **💾 Offline Capability:** Access your saved designs even without internet
+- **🔐 Secure Authentication:** Firebase-powered user authentication
+- **☁️ Cloud Sync:** Your data syncs seamlessly across all your devices
 
 ---
 
@@ -57,14 +57,10 @@ The app implements a feature-first architecture combined with separation of conc
 This separation ensures maintainability and easier scalability as the app grows.
 ### Key Design Decisions
 
-**1. Modular Architecture:** Each feature is self-contained with its own widgets, logic, and data handling, making the codebase easier to maintain and scale.
-
-**2. State Management:** Utilizes Flutter's built-in state management solutions for optimal performance and simplicity.
-
-**3. Responsive Design:** Implements adaptive layouts that automatically adjust to different screen sizes and orientations.
-
-**4. Firebase Integration:** Leverages Firebase for backend services including authentication, cloud storage, and real-time database capabilities.
-
-**5. Asset Management:** Organized asset structure for efficient image loading and caching.
+1. **Modular Architecture:** Each feature is self-contained with its own widgets, logic, and data handling, making the codebase easier to maintain and scale.
+2. **State Management:** Utilizes Flutter's built-in state management solutions for optimal performance and simplicity.
+3. **Responsive Design:** Implements adaptive layouts that automatically adjust to different screen sizes and orientations.
+4. **Firebase Integration:** Leverages Firebase for backend services including authentication, cloud storage, and real-time database capabilities.
+5. **Asset Management:** Organized asset structure for efficient image loading and caching.
 
 
