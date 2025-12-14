@@ -140,3 +140,26 @@ This separation ensures maintainability and easier scalability as the app grows.
 ---
 
 ## 📱 App Preview
+### SignUp Screen
+![SignUp_Screen](https://github.com/zoh01/interior_design/blob/f295cc3007eb984f1cc3b72d120d0881027eb9d4/interior_image9.jpg)
+
+### Home Screen
+![Home_Screen](https://github.com/zoh01/interior_design/blob/f295cc3007eb984f1cc3b72d120d0881027eb9d4/interior_image1.jpg)
+
+### Profile Screen
+![Profile_Screen](https://github.com/zoh01/interior_design/blob/f295cc3007eb984f1cc3b72d120d0881027eb9d4/interior_image2.jpg)
+
+### Store Screen
+![Store_Screen](https://github.com/zoh01/interior_design/blob/f295cc3007eb984f1cc3b72d120d0881027eb9d4/interior_image4.jpg)
+
+### Cart Screen
+![Cart_Screen](https://github.com/zoh01/interior_design/blob/f295cc3007eb984f1cc3b72d120d0881027eb9d4/interior_image5.jpg)
+
+### Login Screen
+![Login_Screen](https://github.com/zoh01/interior_design/blob/f295cc3007eb984f1cc3b72d120d0881027eb9d4/interior_image8.jpg)
+
+### CheckOut Screen
+![Cart_Screen](https://github.com/zoh01/interior_design/blob/f295cc3007eb984f1cc3b72d120d0881027eb9d4/interior_image6.jpg)
+
+### Product Screen
+![Cart_Screen](https://github.com/zoh01/interior_design/blob/f295cc3007eb984f1cc3b72d120d0881027eb9d4/interior_image3.jpg)
