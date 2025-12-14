@@ -56,10 +56,15 @@ The app implements a feature-first architecture combined with separation of conc
     └── main.dart           # Application entry point
 This separation ensures maintainability and easier scalability as the app grows.
 ### Key Design Decisions
+
 **1. Modular Architecture:** Each feature is self-contained with its own widgets, logic, and data handling, making the codebase easier to maintain and scale.
+
 **2. State Management:** Utilizes Flutter's built-in state management solutions for optimal performance and simplicity.
+
 **3. Responsive Design:** Implements adaptive layouts that automatically adjust to different screen sizes and orientations.
+
 **4. Firebase Integration:** Leverages Firebase for backend services including authentication, cloud storage, and real-time database capabilities.
+
 **5. Asset Management:** Organized asset structure for efficient image loading and caching.
 
 
