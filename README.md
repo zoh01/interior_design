@@ -3,14 +3,14 @@
 ## 📖 Introduction
 The Interior Design App is a cross-platform mobile and web application designed to inspire and assist users in visualizing beautiful interior spaces. Whether you're a homeowner looking to redesign your living space, an interior design enthusiast seeking inspiration, or a professional designer, this app provides an intuitive platform to explore, discover, and plan stunning interior designs.
 
---
+---
 
 ## 🎯 Overview
 This application serves as a comprehensive interior design companion that combines the power of modern mobile technology with the creativity of interior design. The app leverages cloud-based services to provide real-time content delivery, ensuring users always have access to the latest design trends and ideas.
 **Problem Statements:** Finding interior design inspiration is often fragmented across multiple platforms, and visualizing how different design elements work together can be challenging without proper tools.
 **Solution:** This app consolidates design inspiration into a single, elegant interface where users can browse curated collections, explore different room styles, and visualize design concepts with an intuitive, user-friendly experience.
 
---
+---
 
 ## ✨ Features
 ### Core Functionality
@@ -27,7 +27,7 @@ This application serves as a comprehensive interior design companion that combin
 **- 🔐 Secure Authentication:** Firebase-powered user authentication
 **- ☁️ Cloud Sync:** Your data syncs seamlessly across all your devices
 
---
+---
 
 ## 🛠️ My Approach
 ### Development Philosophy
