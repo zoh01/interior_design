@@ -77,7 +77,10 @@ This separation ensures maintainability and easier scalability as the app grows.
 - **Flutter SDK** (3.X+) - UI framework for building natively compiled applications
 - **Dart** (3.X+) - Programming language optimized for building mobile, desktop, and web apps
 
-### Firebase Services
+### State Management & Architecture
+- **Provider:** State management solution
+- **GetX:** Navigation and dependency injection
+
 1. Firebase Services
    ```bash
    firebase_core: ^latest          # Firebase core functionality
@@ -85,3 +88,55 @@ This separation ensures maintainability and easier scalability as the app grows.
    cloud_firestore: ^latest        # NoSQL cloud database
    firebase_storage: ^latest       # Cloud storage for images and files
 
+2. UI & Design
+   ```bash
+   google_fonts: ^latest           # Custom fonts
+   cached_network_image: ^latest   # Efficient image loading and caching
+   flutter_svg: ^latest            # SVG rendering support
+   carousel_slider: ^latest        # Image carousels and sliders
+   shimmer: ^latest               # Loading placeholders
+
+3. Utilities
+   ```bash
+   connectivity_plus: ^latest      # Network connectivity detection
+   shared_preferences: ^latest     # Local data persistence
+   path_provider: ^latest         # File system paths
+   image_picker: ^latest          # Image selection from gallery/camera
+
+---
+
+## ⚙️ How It Works
+### Application Flow
+1. **Initialization**
+   ```bash
+   main.dart → Initialize Firebase → Load App Configuration → Render App
+- Firebase services are initialized on app startup
+- Theme preferences and user settings are loaded
+- Authentication state is checked
+
+2. **User Authentication**
+   ```bash
+   Launch → Check Auth State → Display Home/Login
+- If authenticated: Navigate to home screen
+- If not authenticated: Show login/signup screen
+- Firebase Authentication handles user sessions securely
+
+3. **Data Flow**
+   ```bash
+   UI Layer → Request Data → Repository → Firebase Service → Cloud Firestore
+- User interactions trigger data requests
+- Repositories manage data fetching and caching
+- Firebase services communicate with the cloud
+- Data is processed and returned to the UI
+
+4. **Content Display**
+   ```bash
+   Fetch Designs → Cache Images → Render UI → User Interaction
+- Design data is fetched from Firestore
+- Images are cached for optimal performance
+- UI updates reactively based on state changes
+- User interactions (favorites, shares) update the database
+
+---
+
+## 📱 App Preview
