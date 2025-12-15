@@ -163,3 +163,32 @@ This separation ensures maintainability and easier scalability as the app grows.
 
 ### Product Screen
 ![Cart_Screen](https://github.com/zoh01/interior_design/blob/f295cc3007eb984f1cc3b72d120d0881027eb9d4/interior_image3.jpg)
+
+---
+
+## 🚀 Installation
+### Prerequisites
+- Flutter SDK (3.0.0 or higher)
+- Dart SDK (3.0.0 or higher)
+- Android Studio / Xcode / VS Code
+- Firebase account with a project set up
+
+### Setup Instructions
+1. Clone the Repository
+   ```bash
+   git clone https://github.com/zoh01/interior_design.git
+   cd interior_design
+2. Install Dependencies
+   ```bash
+   flutter pub get
+
+---
+
+## Future Enhancement & Ideas
+- AR visualization feature for room previews
+- AI-powered design recommendations
+- Social sharing capabilities
+- Designer marketplace
+- 3D room modeling
+- Color palette generator
+- Material selection tools
