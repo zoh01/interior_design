@@ -192,3 +192,29 @@ This separation ensures maintainability and easier scalability as the app grows.
 - 3D room modeling
 - Color palette generator
 - Material selection tools
+
+---
+
+## 🤝 Contributing
+Contributions make the open-source community an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+
+---
+
+## 📄 License
+Distributed under the MIT License. See LICENSE file for more information.
+
+---
+
+## 👤 Author
+**Adebayo Wariz**  
+
+## 📧 Contact
+Whatsapp: +234 702 513 6608
+
+Email: adebayozoh@gmail.com
+
+LinkedIn: https://www.linkedin.com/in/adebayo-wariz-a8ab9a310/
+
+GitHub: [https://github.com/zoh01](https://github.com/zoh01)
+
+Project Link: [https://github.com/zoh01/interior_design](https://github.com/zoh01/interior_design)
