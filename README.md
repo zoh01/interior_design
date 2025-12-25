@@ -1,5 +1,17 @@
 # 🏠 Interior Design App
 
+<div align="center">
+
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+
+A comprehensive hostel management solution built with Flutter for seamless administration and guest management.
+
+[Features](#-features) • [Installation](#-installation) • [Architecture](#-my-approach) • [Tech Stack](#-tools-and-libraries-used)
+
+</div>
+
 ## 📖 Introduction
 The Interior Design App is a cross-platform mobile and web application designed to inspire and assist users in visualizing beautiful interior spaces. Whether you're a homeowner looking to redesign your living space, an interior design enthusiast seeking inspiration, or a professional designer, this app provides an intuitive platform to explore, discover, and plan stunning interior designs.
 
