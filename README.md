@@ -49,25 +49,25 @@ The development of this application follows modern Flutter best practices and cl
 ### 🏗️ Architecture Pattern
 The app implements a feature-first architecture combined with separation of concerns:
 1. Clean Architecture Implementation
-   ```bash
-   lib/
-    ├── core/                 # Core utilities, constants, and themes
-    │   ├── constants/        # App-wide constants
-    │   ├── themes/          # App theming and styles
-    │   └── utils/           # Helper functions and utilities
-    ├── data/                # Data layer
-    │   ├── models/          # Data models and entities
-    │   ├── repositories/    # Repository implementations
-    │   └── services/        # API and Firebase services
-    ├── features/            # Feature modules
-    │   ├── home/           # Home screen feature
-    │   ├── gallery/        # Design gallery feature
-    │   ├── favorites/      # Favorites management
-    │   └── profile/        # User profile feature
-    ├── shared/             # Shared widgets and components
-    │   ├── widgets/        # Reusable widgets
-    │   └── components/     # Custom UI components
-    └── main.dart           # Application entry point
+ 
+         lib/
+          ├── core/                 # Core utilities, constants, and themes
+          │   ├── constants/        # App-wide constants
+          │   ├── themes/          # App theming and styles
+          │   └── utils/           # Helper functions and utilities
+          ├── data/                # Data layer
+          │   ├── models/          # Data models and entities
+          │   ├── repositories/    # Repository implementations
+          │   └── services/        # API and Firebase services
+          ├── features/            # Feature modules
+          │   ├── home/           # Home screen feature
+          │   ├── gallery/        # Design gallery feature
+          │   ├── favorites/      # Favorites management
+          │   └── profile/        # User profile feature
+          ├── shared/             # Shared widgets and components
+          │   ├── widgets/        # Reusable widgets
+          │   └── components/     # Custom UI components
+          └── main.dart           # Application entry point
 This separation ensures maintainability and easier scalability as the app grows.
 ### 🎯 Key Design Decisions
 1. **Modular Architecture:** Each feature is self-contained with its own widgets, logic, and data handling, making the codebase easier to maintain and scale.
