@@ -120,30 +120,26 @@ This separation ensures maintainability and easier scalability as the app grows.
 ## ⚙️ How It Works
 ### 📊 Application Flow
 1. **Initialization**
-   ```bash
-   main.dart → Initialize Firebase → Load App Configuration → Render App
+   `main.dart → Initialize Firebase → Load App Configuration → Render App`
 - Firebase services are initialized on app startup
 - Theme preferences and user settings are loaded
 - Authentication state is checked
 
 2. **User Authentication**
-   ```bash
-   Launch → Check Auth State → Display Home/Login
+   `Launch → Check Auth State → Display Home/Login`
 - If authenticated: Navigate to home screen
 - If not authenticated: Show login/signup screen
 - Firebase Authentication handles user sessions securely
 
 3. **Data Flow**
-   ```bash
-   UI Layer → Request Data → Repository → Firebase Service → Cloud Firestore
+   `UI Layer → Request Data → Repository → Firebase Service → Cloud Firestore`
 - User interactions trigger data requests
 - Repositories manage data fetching and caching
 - Firebase services communicate with the cloud
 - Data is processed and returned to the UI
 
 4. **Content Display**
-   ```bash
-   Fetch Designs → Cache Images → Render UI → User Interaction
+   `Fetch Designs → Cache Images → Render UI → User Interaction`
 - Design data is fetched from Firestore
 - Images are cached for optimal performance
 - UI updates reactively based on state changes
