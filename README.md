@@ -94,19 +94,19 @@ This separation ensures maintainability and easier scalability as the app grows.
 - **GetX:** Navigation and dependency injection
 
 1. 🔥 Firebase Services
-   ```bash
-   firebase_core: ^latest          # Firebase core functionality
-   firebase_auth: ^latest          # User authentication
-   cloud_firestore: ^latest        # NoSQL cloud database
-   firebase_storage: ^latest       # Cloud storage for images and files
+   
+       firebase_core: ^latest          # Firebase core functionality
+       firebase_auth: ^latest          # User authentication
+       cloud_firestore: ^latest        # NoSQL cloud database
+       firebase_storage: ^latest       # Cloud storage for images and files
 
 2. 🎨 UI & Design
-   ```bash
-   google_fonts: ^latest           # Custom fonts
-   cached_network_image: ^latest   # Efficient image loading and caching
-   flutter_svg: ^latest            # SVG rendering support
-   carousel_slider: ^latest        # Image carousels and sliders
-   shimmer: ^latest               # Loading placeholders
+   
+       google_fonts: ^latest           # Custom fonts
+       cached_network_image: ^latest   # Efficient image loading and caching
+       flutter_svg: ^latest            # SVG rendering support
+       carousel_slider: ^latest        # Image carousels and sliders
+       shimmer: ^latest               # Loading placeholders
 
 3. 🔧 Utilities
    ```bash
