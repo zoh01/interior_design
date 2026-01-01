@@ -109,12 +109,12 @@ This separation ensures maintainability and easier scalability as the app grows.
        shimmer: ^latest               # Loading placeholders
 
 3. 🔧 Utilities
-   ```bash
-   connectivity_plus: ^latest      # Network connectivity detection
-   shared_preferences: ^latest     # Local data persistence
-   path_provider: ^latest         # File system paths
-   image_picker: ^latest          # Image selection from gallery/camera
-
+   
+       connectivity_plus: ^latest      # Network connectivity detection
+       shared_preferences: ^latest     # Local data persistence
+       path_provider: ^latest         # File system paths
+       image_picker: ^latest          # Image selection from gallery/camera
+   
 ---
 
 ## ⚙️ How It Works
