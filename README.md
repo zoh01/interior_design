@@ -187,9 +187,9 @@ This separation ensures maintainability and easier scalability as the app grows.
 
 ### 📊 Setup Instructions
 1. Clone the Repository
-   ```bash
-   git clone https://github.com/zoh01/interior_design.git
-   cd interior_design
+   
+       git clone https://github.com/zoh01/interior_design.git
+       cd interior_design
 2. Install Dependencies
    ```bash
    flutter pub get
