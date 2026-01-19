@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 
 import '../../../../../utils/constants/colors.dart';
 
-
 class ZSettingsMenuTile extends StatelessWidget {
   const ZSettingsMenuTile({
     super.key,
     required this.icon,
     required this.title,
     required this.subTitle,
-    this.trailing, this.onTap,
+    this.trailing,
+    this.onTap,
   });
 
   final IconData icon;
