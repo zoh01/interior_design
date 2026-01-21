@@ -7,7 +7,7 @@ import '../../../../../utils/constants/colors.dart';
 import '../../../../../utils/constants/sizes.dart';
 
 class StoreGridLayout extends StatelessWidget {
-  StoreGridLayout({
+  const StoreGridLayout({
     super.key,
     required this.image,
     required this.title,

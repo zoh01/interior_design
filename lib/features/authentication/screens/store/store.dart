@@ -19,7 +19,7 @@ import '../../../../utils/constants/colors.dart';
 class StoreScreen extends StatelessWidget {
   StoreScreen({super.key});
 
-  List<MaterialZoh> materialList = [
+  final List<MaterialZoh> materialList = [
     MaterialZoh(ZImages.sofa_1, 'Sofa', '149 Products', () {}),
     MaterialZoh(ZImages.light, 'Light', '421 Products', () {}),
     MaterialZoh(ZImages.bed, 'Bed', '200 Products', () {}),
